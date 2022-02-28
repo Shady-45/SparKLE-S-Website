@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  margin: 2px 167px -43px 68px;
+}
+.unorderedlist {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+.nav {
+  text-decoration: none;
+}
+.img {
+  max-width: 800px;
+  max-height: 400px;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 50px;
+}
+.container p {
+  padding: 97px 108px 13px 55px;
+}
