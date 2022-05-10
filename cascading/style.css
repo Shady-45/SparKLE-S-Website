@@ -1,36 +1,503 @@
 * {
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+nav{
+  position: sticky;
+}
+.row0{
+display: flex;
+gap: 584px;
+}
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+
 }
-.title {
-  margin: 2px 167px -43px 68px;
-}
+
+ .title {
+   margin: 19px 16px; 
+   font-size: 25px;
+} 
 .unorderedlist {
   display: flex;
   list-style-type: none;
   text-decoration: none;
   flex-wrap: wrap;
-  gap: 50px;
-  justify-content: center;
+  gap: 22px;
+  justify-content: flex-end;
+  margin: 22px 102px;
 }
 .nav {
   text-decoration: none;
 }
 .img {
-  max-width: 800px;
+  max-width: 500px;
   max-height: 400px;
   background-size: cover;
 }
-.container {
-  display: flex;
-  flex-wrap: nowrap;
+.container{
+
+  display: flex; 
+  text-align: left;
+/*   flex-wrap: nowrap; */
   gap: 50px;
+  background-image: url('https://images.unsplash.com/photo-1564951415682-4466397f7707?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+ /*  background-repeat: repeat-x; */
+  color: rgba(28, 28, 47, 0.944)
+  
 }
 .container p {
-  padding: 97px 108px 13px 55px;
+/*   padding: 97px 108px 13px 55px; */
+float: left;
+
 }
+.space{
+  letter-spacing: 5px;
+}
+.makeup{
+  width: 15%;     
+  margin: 1px 6px;
+
+}
+.start{
+  justify-content: center;
+align-items: center;
+margin: auto;
+}
+.about{
+  text-align: center;
+}
+.Nails img{
+    height: 100px;
+    width: 100px;
+}
+.Nails{
+  margin: 5px;
+}
+
+.body-treat img{
+    height: 100px;
+    width: 100px;
+}
+.facial img{
+    height: 100px;
+    width: 100px;
+}
+.makeup img{
+    height: 111px;
+    width: 100px;
+    margin: 0px;
+    
+}
+/* .makeup h4{
+  margin: 1px 58px;
+} */
+.box{
+  display: flex;    
+   margin: 9px 27px;    
+    gap: 125px;
+    background-color: rgb(245, 239, 239);
+}
+/*  */
+ /*  width: 22%;
+  border: 5px solid rgb(207, 181, 181); */
+
+
+/* .mkeup{
+  margin: 4px 10px;
+  text-align: center;
+
+} */
+.abt-us{
+  margin: 22px;
+}
+.abt-us1{
+  margin: 22px;
+}
+.abt-para{
+  margin: 18px 22px;
+}
+/* Services */
+.abt-img{
+  max-height: 500px;
+}
+.services h2{
+  font-size: 38px;
+  width: 24%;
+  margin: 17px 96px;
+  word-spacing: 4px;
+}
+.services h4{
+  font-size: 14px;     
+  margin: 9px 106px;
+}
+.bar{
+  
+  display: flex;
+  color: white;
+  margin: -6px 0px;
+  width: 107%;
+  height: 25px;
+  text-align: center;
+  }
+.bar p{
+  margin: 0px;
+  width: 39%;
+  background-color:#563B4C
+}
+.bar span{
+  background-color:#47313F;
+  width: 22%;
+}
+.bar1{
+  display: flex;
+  color: white;
+  margin: -6px 0px;
+  width: 264%;
+  height: 25px;
+  text-align: center;
+}
+.bar1 p{
+  background-color:#563B4C ;
+  margin: 0px;
+  width: 14%;
+}
+.bar1 span{
+  background-color:#47313F;
+  margin: 0px;
+  width: 8%;
+
+}
+.bar2{  
+  display: flex;
+  color: white;
+  margin: -6px 0px;
+  width: 264%;
+  height: 25px;
+  text-align: center;
+}
+.bar2 p{  
+  background-color:#563B4C ;
+  margin: 0px;
+  width: 14%;
+}
+.bar2 span{  
+  background-color:#47313F;
+  margin: 0px;
+  width: 8%;
+}
+.bar2{
+  display: flex;
+}
+.bar2 p{
+  background-color:#563B4C ;
+  margin: 0px;
+  width: 14%;
+}
+.bar2 span{
+  background-color:#47313F;
+  margin: 0px;
+  width: 8%;
+}
+.bar3{ 
+  display: flex;
+  color: white;
+  margin: -6px 0px;
+  width: 264%;
+  height: 25px;
+  text-align: center; 
+}
+.bar3 p{ 
+  background-color:#563B4C ;
+  margin: 0px;
+  width: 14%;
+}
+.bar3 span{
+   background-color:#47313F;
+  margin: 0px;
+  width: 8%;
+}
+.manicure{
+  /* border: 2px solid;     
+  margin: -5px 2px;     
+  padding: 50px 45px;     
+  width: 90%; */
+  border: 2px solid #F18C8E;
+  padding: 27px 28px;
+  width: 34%;
+  margin: 22px 71px;
+  height: 583px;
+
+}
+.professional-makeup{
+ /*  border: 2px solid;     
+  margin: -5px 2px;     
+  padding: 50px 45px;     
+  width: 90%; */
+  border: 2px solid #F18C8E;
+  padding: 27px 28px;
+  width: 34%;
+  margin: 22px 71px;
+  height: 583px; 
+}
+.body-spa{
+  border: 2px solid #F18C8E;
+  padding: 27px 28px;
+  width: 34%;
+  margin: -126px 71px;
+  height: 583px; 
+}
+.hair-colour{
+ /*  border: 2px solid;     
+  margin: -5px 2px;     
+  padding: 50px 45px;     
+  width: 90%; */
+ /*  display: flex;
+  color: white;
+  margin: -6px 0px;
+  width: 107%;
+  height: 25px;
+  text-align: center; */
+  border: 2px solid #F18C8E;
+  padding: 27px 28px;
+  width: 34%;
+  margin: -125px 71px;
+  height: 583px; 
+}
+.makeup:hover{
+  background-color: #F18C8E;
+  color: white;
+  
+} 
+.Nails:hover{
+  background-color: #F18C8E;
+  color: white;
+}
+.body-treat:hover{
+  background-color: #F18C8E;
+  color: white;
+}
+.facial:hover{
+  background-color: #F18C8E;
+  color: white;
+}
+.price{
+  text-align: center;
+}
+.hair-type{
+  display: flex;
+  flex-direction: column;
+  width: 138px;     
+  margin: 5px 31px;
+}
+.manicure-pedicure-type{
+  display: flex;
+  flex-direction: column;
+  width: 138px;   
+  text-align: center;  
+  margin: 4px 31px;
+}
+.body-treatement-type{
+  display: flex;
+  flex-direction: column;
+  width: 138px;   
+  text-align: center;  
+  margin: 4px 31px;
+}
+.hairstyle{
+  border: 2px solid #F18C8E;     
+  width: 206px;     
+  height: 192px;
+text-align: center;
+}
+.makeup1-type{
+  text-align: center;
+}
+.manicure-pedicure{
+  border: 2px solid #F18C8E;     
+  width: 206px;     
+  height: 192px;
+  text-align: center;
+}
+.body-treatement{
+  border: 2px solid #F18C8E;     
+  width: 206px;     
+  height: 192px;
+  text-align: center;
+}
+.makeup1{
+  border: 2px solid #F18C8E;    
+  width: 206px;     
+  height: 192px;
+  
+}
+.makeup1-type button{
+
+  border: 2px solid;
+  background: #F18C8E;
+  padding: 10px 10px;
+  margin: 5px 16px;
+  width: 100px;
+  border-radius: 33px;
+}
+.hair-type button{
+  border: 2px solid;
+  background: #F18C8E;
+  padding: 10px 10px;
+  margin: 5px 16px;
+  width: 100px;
+  border-radius: 33px;
+  color: white;
+  cursor: pointer;
+  
+}
+.makeup1-type button{
+  border: 2px solid;
+  background: #F18C8E;
+  padding: 10px 10px;
+  cursor: pointer;
+  margin: 5px 16px;
+  width: 100px;
+  color: white;
+  border-radius: 33px;
+  
+}
+.manicure-pedicure-type button{
+  border: 2px solid;
+  background: #F18C8E;
+  padding: 10px 10px;
+  margin: 5px 16px;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 33px;
+  
+}
+.body-treatement-type button{
+  border: 2px solid;
+  background: #F18C8E;
+  padding: 10px 10px;
+  cursor: pointer;
+  margin: 5px 16px;
+  color: white;
+  width: 100px;
+  border-radius: 33px;
+  
+}
+.cursor{
+  cursor: pointer;
+}
+.gray{
+  color:rgb(111 105 105);
+}
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+}
+.row{
+  display: flex;
+  gap: 82px;
+  margin: 2px 130px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.pink{
+  color: #F18C8E;
+}
+/*  */
+/* footer */
+.footer-area {
+  margin-top: 50px;
+  padding: 100px 0;
+  background: #F18C8E;                                                         
+  background: -moz-linear-gradient(left,  #F18C8E 0%, #fbb3b5 100%);
+  background: -webkit-linear-gradient(left,  #F18C8E 0%,#fbb3b5 100%);
+  background: linear-gradient(to right,  #F18C8E 0%, #fbb3b5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2749c4', endColorstr='#6085b2',GradientType=1 );
+  color:#fff;
+  position:relative;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    }
+    .single-footer {
+    width: 230px;
+    }
+    .single-footer:first-child {
+    width: 400px;
+    }
+    .single-footer h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 20px;
+    }
+    .footer-social a {
+    color: #fff;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    }
+    .footer-social {
+    margin-top: 20px;
+    }
+    .single-footer ul {
+    list-style: none;
+    }
+    .single-footer ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+    }
+    .single-footer ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    }
+    .single-footer ul li a i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    }
+    .copy {
+      text-align: center;
+      text-transform: capitalize;
+      margin-top: 50px;
+      font-size: 20px;
+      }
+      
+      .footer-wave-box {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 45px;
+      right: 0;
+      width: 100%;
+      overflow:hidden;
+      }
+      .footer-wave {
+        background-image: url('');
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 200%;
+        background-size:50%;
+        background-position:bottom;
+        background-repeat:repeat-x;
+      }  
